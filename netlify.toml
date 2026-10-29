@@ -1,0 +1,5 @@
+# Overrides the build settings configured in the Netlify UI.
+# This project has no Node.js build step, so static files in `public/` are published as-is.
+[build]
+  command = "echo 'No build step required'"
+  publish = "public"
